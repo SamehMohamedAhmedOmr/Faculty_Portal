@@ -1,0 +1,26 @@
+.table .thead-light th.headName{
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: #d1ceef;
+}
+
+.table .thead-light th.headContent{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+div.final_Announcement{
+    margin-left: 25%;
+    margin-top:10px;
+    text-align: center;
+    font-weight: bolder;
+}
+div.entire_final{
+    background-color: #f7f7f7;
+    font-size:25px;
+    padding: 5px 0px 3px 5px;
+}
+form.selectClass{
+    margin-left: 200px;
+    width: 1000px;
+}

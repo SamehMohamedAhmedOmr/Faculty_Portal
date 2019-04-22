@@ -1,0 +1,68 @@
+.timetable_table {
+    font-family: Candara;
+    color: #7e8798;
+    box-shadow: 3px 3px 5px #cccccc;
+}
+.timetable_table > thead > tr > th {
+    border-bottom:3px solid #cc6699;
+}
+.timetable_table_th {
+    background-color: #f2f2f2;
+    color: #808080;
+    border:1px solid blue;
+}
+.timetable_table > tbody > tr > .timetable_table_day {
+    background-color: #00334d;
+    color: #ececf9;
+    text-shadow: 2px 2px #002233;
+}
+.timetable_table > tbody > tr > .timetable_table_tt {
+    border-left:2px solid #77d5d5;
+    background-color: #e6e6ff;
+}
+.timetable_table > tbody > tr > .timetable_table_tt_lec {
+    color: #2d333a;
+    border-left:2px solid #314f92;
+    background-color: #ccd5ea;
+}
+.timetable_table > tbody > tr > .timetable_table_tt_sec {
+    color: #3b2f29;
+    border-left:2px solid #ff5400;
+    background-color: #ffe7ae;
+}
+.timetable_table_place {
+    background-color: #009999;
+    text-shadow: 1.5px 1.5px #006666;
+    box-shadow: 2px 2px 2px #00bfff;
+    color: #ececf9;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.timetable_table_place_hall {
+    background-color: #0f327f;
+    text-shadow: 1.5px 1.5px #072770;
+    box-shadow: 2px 2px 2px #0072ff;
+    color: #ececf9;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.timetable_table_place_lab {
+    background-color: #ff8a00;
+    text-shadow: 1.5px 1.5px #e87e00;
+    box-shadow: 2px 2px 2px #ffc000;
+    color: #ececf9;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.timetable_table_title {
+    color: #00334d;
+    font-family: Candara;
+}
+.timetable_table_title i{
+    padding-right: 10px;
+    font-size:20px;
+}
+.timetable_table_title span {
+    color: #a83a71;
+    text-shadow: 1px 1px 3px #c2c2c2;
+}

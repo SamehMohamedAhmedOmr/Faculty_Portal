@@ -1,0 +1,157 @@
+.profileCard
+{
+    background-color: #f7f8f9 !important;
+    /*background-color: #ffffff !important;*/
+}
+.profileCard .header
+{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #216c8b;
+    position: relative;
+    margin: 0 auto;
+}
+.headerName
+{
+    color: #3a6cce;
+
+}
+.profileCard .userINfo
+{
+    padding: 35px;
+}
+.profileCard .userINfo li
+{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.profileCard .userINfo li .head
+{
+    background-color: #efefef;
+    margin-right: 20px;
+    border: 1px solid #8dcdf5;
+    display: inline-block;
+    width: 120px !important;
+    padding: 4px;
+}
+.EditProfileButton
+{
+    margin: 10px auto;
+}
+.profileCard li .head  i
+{
+    float: left;
+    margin-top: 4px;
+    padding-right: 15px;
+}
+
+/*HorizontalLIne*/
+/* Reset */
+*:before, *:after { content: ''; }
+hr {
+    border: 0;
+    margin: 3.35em auto;
+    margin-bottom: 2em;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+}
+
+
+.accessory {
+    height: 6px;
+    background-image: radial-gradient(
+            closest-side,
+            hsla(0, 0%, 50%, 1.0),
+            hsla(0, 0%, 50%, 0) 100%);
+    position: relative;
+}
+.accessory:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+    height: 22px;
+    width: 22px;
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 4px 0;
+    border: 4px solid hsla(0, 0%, 77%, 0.35);
+    background-clip: padding-box;
+    box-shadow: -10px 10px 0 hsla(0, 0%, 100%, 0.15), 10px -10px 0 hsla(0, 0%, 100%, 0.15);
+}
+.Specialization
+{
+    text-align: center;
+    font-family: "DejaVu Math TeX Gyre";
+    margin: 20px auto;
+}
+
+
+#overlayProfileHeader {
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    /*color: rgba(130, 130, 130, 0.5);*/
+    color: white;
+    text-shadow: 1px 1px #001033;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 1.5px 1.5px 2px #00aced;
+    font-family: 'Saira SemiCondensed';
+    border-radius: 20px;
+    background-color: #0f327f;
+    transition: all 0.5s ease;
+    border-bottom: 1.6px solid #0a2d7c;
+}
+#overlayProfileHeader:hover{
+    background-color: #173e94;
+}
+
+.profFormInp {
+    border: none;
+    background-color: white;
+    border-radius: 0px;
+    border-bottom: 2px solid #d5d5d5;
+    transition: all 0.5s ease;
+}
+.profFormInp:focus,
+.profFormInp:focus:hover,
+.profFormInp:active {
+    /*border: none;*/
+    box-shadow: none;
+    color: #1783ac;
+}
+.formContent{
+    padding: 20px;
+}
+.profFormlbl{
+    border-bottom: 2px solid #cee1e8;
+    color: #216c8b;
+    font-family: 'Saira SemiCondensed';
+}
+.profSubmBtn {
+    background: linear-gradient(to bottom right, #213455, #2550b0, #00aced );
+    font-family: 'Saira SemiCondensed';
+    color: white;
+    box-shadow: 3px 3px 4px #989898;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #2c4167;
+    transition: all 1s ease;
+}
+.profSubmBtn:hover,
+.profSubmBtn:focus,
+.profSubmBtn:active,
+.profSubmBtn:focus:active{
+    background: linear-gradient(to bottom right, #2d446e, #2856bd, #00aced );
+    color: white;
+    text-shadow: 2px 2px 4px #00aced;
+}

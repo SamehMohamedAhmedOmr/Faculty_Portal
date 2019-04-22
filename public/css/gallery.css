@@ -1,0 +1,85 @@
+.albm-hint{
+    font-family: 'basic title font';
+    text-shadow: 2px 2px 2px #7e8798;
+    font-size: 36px;
+}
+.add-img{
+    display: inline;
+    float: right;
+    background: none;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Impact';
+    border: none;
+    color: #292d7b;
+}
+.add-img:hover,
+.add-img:target,
+.add-img:focus
+{
+    color: white;
+    border: none;
+    background: none;
+}
+.del-img-btn{
+    display: block;
+    margin-bottom: 0px;
+    float: bottom;
+    border: 1px solid #d3d3d3;
+    border-radius: 0px;
+    font-family: 'Cuprum';
+    border-left: none;
+    border-right: none;
+}
+.del-img-btn:hover{
+    border: 1px solid #d4d4d4;
+    border-radius: 0px;
+    background-color: #dfdfdf;
+    color: #2f2b2b;
+}
+.albm-li {
+    display: grid;
+}
+.add-album-btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'basic title font';
+    font-size: 26px;
+    display: inline;
+}
+.add-album-btn{
+    background-color: #4d80c1;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px #b0b0b0;
+    transition: all 1s ease;
+}
+.add-album-btn:hover{
+    background-color: #3066ab;
+}
+.del-album, .edit-album{
+    font-family: 'Cuprum';
+    font-size: 18px;
+    background-color: #262626;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #b0b0b0;
+    transition: all 1s ease;
+    color: white;
+    height: 30px;
+    padding-top: 0px;
+    width: 40%;
+}
+.del-album{
+    margin-bottom: 15px;
+}
+.del-album:hover , .edit-album:hover{
+    background-color: #b30000;
+    color: white;
+}
+.edit-album:hover{
+    background-color: #00b386;
+    color: white;
+}

@@ -1,0 +1,223 @@
+#header .container{
+    margin:0px;
+    padding: 0px;
+    margin-top: -10px;
+    /*height: 50px;*/
+}
+
+#header .userNav{
+    background: #008bc4;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+    height: 60px;
+    /*height: 100%;*/
+}
+
+#header .userNav span{
+    color: white;
+    margin-left: 20px;
+}
+#header .userNav a{
+    color: white;
+}
+.posts .container{
+    margin: auto;
+    margin-right: 0px;
+}
+.posts article{
+    height: 250px;
+    float: left;
+}
+.section2{
+    margin: auto;
+    padding: 30px;
+}
+.section2 h3{
+    margin: 30px;
+    color: #003546;
+    font-family: "Saira SemiCondensed";
+    text-shadow: 2px 2px 5px #6b6b6b;
+    font-size: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: -5px;
+}
+
+.section2 .about_us{
+    display: inline-block;
+    margin-left: 15px;
+    border-left: 4px solid #009bcd;
+    margin-top: 50px;
+}
+.about_img{
+    float: right;
+}
+.section2_img {
+    height: 40px;
+    width: 40px;
+    padding-top: 0px;
+    display: inline;
+    margin-left: 5px;
+}
+.section1 {
+    margin: auto;
+    align:center;
+    background: #dbdbdb;
+    /*padding: 30px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.cornerpic{
+    margin: auto;
+   margin-top: -1px !important;
+}
+.cornerpic img{
+
+}
+.section1 .parts
+{
+    margin: auto;
+    align-content: center;
+    display: inline-block;
+}
+.section1 .parts .title1,
+.section1 .parts .title2
+{
+    margin-left: 30px;
+    background: #008bc4;
+    margin: auto;
+    text-align: left;
+    color: white;
+    padding: 0px;
+    border-radius: 5px 5px 0px 0px;
+    float: right;
+    padding-top: 10px;
+    transition: background-color .18s ease-in-out;
+}
+.section1 .parts .title1:hover,
+.section1 .parts .title2:hover{
+    background: #3a6cce;
+}
+.title_head{
+    transition:padding-left .25s ease-in-out;
+}
+.title_head:hover{
+    padding-left: 10px;
+}
+.section1 .parts .title1 span,
+.section1 .parts .title2 span{
+    transition: margin-left .22s ease-in-out;
+}
+.section1 .parts .title1 span:hover,
+.section1 .parts .title2 span:hover{
+    margin-left: 15px;
+}
+.section1 .parts .title1 hr,
+.section1 .parts .title2 hr{
+    border-bottom: 4px solid #0f6386;
+    margin: 0px;
+}
+.section1 .parts span{
+    font-family: 'basic title font';
+    text-shadow: 2px 2px 3px #00499b;
+    font-size: 30px;
+    /*text-align: left;*/
+}
+.description{
+    background-color: white;
+    color:black;
+    height: 150px;
+    border-bottom: 0.5px solid #b4b4b4;
+    padding: 20px;
+}
+.title1 .pic,
+.title2 .pic{
+    /*margin-top: 0px;*/
+    margin-right: 0px;
+    float: left;
+    /*margin-left: 150px;*/
+}
+.title1 img,
+.title2 img{
+    height: 30px;
+    width: 30px;
+    padding-top: 0px;
+}
+.news h2{
+    font-family: 'Saira SemiCondensed';
+    text-shadow: 2px 2px 1px #06173b;
+    padding: 10px;
+}
+.news_title{
+    background-color: #1f66a3;
+    box-shadow: 0px 1.5px #0089ff;
+    border-radius: 6px;
+}
+.news_title i{
+    margin-right: 8px;
+    font-size: 25px;
+}
+.news .mypic ,
+.news .mypic img {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    display: inline-block;
+}
+.news article .pic{
+    height: 194px;
+    width: 175px;
+}
+.myinfo{
+    margin-top: 20px;
+}
+.myinfo a:hover{
+    color: #77a7ff;
+}
+.events{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.events .container{
+    background-color: #d3d3d3;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.readmore{
+    transition:padding-left .25s ease-in-out;
+}
+.readmore:hover{
+    padding-left: 20px;
+}
+.events .eventsTitle{
+    font-family: 'Saira SemiCondensed';
+    text-shadow: 2px 2px 1px #136ce5;
+    color: #001a3d;
+    font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+    #menu ul {
+        display: block;
+        width: 100% !important;
+    }
+    #menu li {
+        display: block;
+        width: 100% !important;
+        background-color: #268bc40a;
+        margin: 5px;
+    }
+    #menu li:hover {
+        background-color: #268bc4;
+    }
+    #menu li:hover a {
+        color: #fff;
+    }
+}
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}

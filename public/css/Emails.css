@@ -1,0 +1,360 @@
+.headerName {
+    color: #000;
+    text-align: center;
+    margin: 15px auto;
+    background-color: #dddddd38;
+    padding: 10px;
+}
+.MailSideBar
+{
+    height: 100%;
+    background: #1D2127;
+}
+.Maillogo-container {
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    margin: 50px 0;
+    cursor: pointer;
+    font-size: 50px;
+}
+.Maillogo-container .logo {
+    position: relative;
+    top: -6px;
+    font-size: 25px;
+    margin-right: 15px;
+    padding: 10px;
+    border: 2px solid #2983ac;
+    border-radius: 100px;
+    text-indent: 1px;
+    color: #008bc4;
+}
+
+.Maillogo-container .glyphicon {
+    position: relative;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Maillogo-container .logoText
+{
+    padding-top: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 5px #008bc4;
+    font-size: 50px;
+}
+.Mailcompose-button:hover {
+    color: #ABB4BE;
+    border-color: #ABB4BE;
+}
+
+.Mailcompose-button {
+    color: #fff !important;
+    border-radius: 100px;
+    padding: 13px 20px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #61C7B3;
+    border: 2px solid #2983ac;
+    display: block;
+    margin: 0 50px 30px 50px;
+    cursor: pointer;
+}
+
+.MailSideBar .menu-segment {
+    padding: 20px 0;
+}
+.MailSideBar .menu-segment ul li
+{
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.MailSideBar .menu-segment ul  .active
+{
+    background-color: #2d2d2d;
+    box-shadow: 2px 2px 6px #277ea6;
+}
+.MailSideBar .menu-segment ul li:hover
+{
+    background-color: #21262d;
+}
+.MailSideBar .menu-segment ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.searchMails label
+{
+    width: 60%;
+    margin: 5px auto;
+    background-color: #1d212800;
+    text-align: center;
+    border: 1px solid #424242;
+}
+
+.searchMails input
+{
+    width: 90%;
+    margin: 20px auto 10px auto;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000;
+}
+.Mailheader {
+    padding: 20px 60px;
+    border-bottom: 1px solid #EFEFEF;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.Mailheader h4
+{
+    color: #6b6b6b;
+}
+.msgsContainer
+{
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.msgsContainer .msgsList
+{
+    margin-bottom: 0px;
+}
+.msgsContainer .msgsList li
+{
+    margin: 0;
+    padding: 10px;
+}
+.msgsContainer .msgsList li:hover
+{
+    background-color: #dddddd47;
+}
+#message {
+    position: absolute;
+    background-color: #efeff0;
+    top: 9%;
+    right: 15px;
+    width: 60%;
+    padding: 40px;
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    height: 90%;
+    z-index: 99999999999999;
+}
+#message header
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+#message h1
+{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 100;
+    color: #808080;
+}
+#message h1 i
+{
+    font-size: 35px;
+    color: #808080;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+#message-content
+{
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    margin: 0 0 30px 0;
+    position: relative;
+}
+#message-content .details
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: #808080;
+}
+#message-content .details i
+{
+    color: #008bc4;
+}
+#message-content .body
+{
+    color: #6c757d;
+}
+#message .fa-backward:hover
+{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.composeMessage
+{
+    position: fixed; /* or absolute */
+    top: 10%;
+    left: 20%;
+    background-color: #fff;
+    z-index: 99999999;
+}
+.composeMessage h4
+{
+    font-size: 22px !important;
+    color: #9a9a9a !important;
+    text-align: center;
+    margin: 5px auto;
+    margin-bottom: 20px;
+}
+
+
+#fancy2 {
+    display: none;
+    padding: 19px 22px 26px 22px;
+}
+
+#fancy2 h2 {
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 33px;
+}
+
+#fancy2 .left {
+    float: left;
+    padding: 0 4px;
+}
+
+#fancy2 .right {
+    float: right;
+    padding: 0 4px;
+}
+
+#fancy2 fieldset {
+    width: 370px;
+    background: #e6e8ec url(/images/frontend/ico_form.png) no-repeat 21px 19px;
+    border-radius: 4px;
+    height: 52px;
+    margin-bottom: 8px;
+}
+
+#fancy2 .name {
+    background-position: 21px -33px;
+}
+
+#fancy2 .subject {
+    background-position: 21px -85px;
+}
+
+#fancy2 .question {
+    background-position: 21px -137px;
+    height: 172px;
+}
+
+#fancy2 input {
+    height: 52px;
+    font-size: 14px;
+    color: #7e8798;
+    border: none;
+    background: none;
+    width: 100%;
+    padding: 16px 10px 16px 60px;
+}
+
+#fancy2 textarea {
+    height: 172px;
+    font-size: 14px;
+    color: #7e8798;
+    border: none;
+    background: none;
+    width: 100%;
+    padding: 18px 10px 18px 60px;
+    resize: none;
+}
+
+#fancy2 textarea::-webkit-input-placeholder,
+#fancy2 input::-webkit-input-placeholder {
+    color:#7e8798;
+}
+#fancy2 textarea::-moz-placeholder,
+#fancy2 input::-moz-placeholder {
+    color:#7e8798;
+}
+
+#fancy2 .btn-holder {
+    padding-top: 32px;
+}
+
+#fancy2 .btn {
+    width: 230px;
+    height: 52px;
+    line-height: 52px;
+}
+.composeMessage .close
+{
+    position: absolute;
+    top: -21px;
+    left: -30px;
+    font-size: 42px;
+    z-index: 999999999999;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    opacity: 1;
+}
+.composeMessage .close:hover
+{
+    color: #8c8c8c;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

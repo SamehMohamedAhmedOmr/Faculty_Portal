@@ -1,0 +1,279 @@
+.regMail_error {
+    border: 0.5px solid red;
+}
+.mngRegLevel, .mngRegDep {
+    color: #3868ae;
+    text-shadow: 0.5px 0.5px #c8c8c8;
+    font-family: Candara;
+    font-size: 18px;
+}
+.mngRegOpt {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 5px;
+}
+.mngRegOpt:hover, .mngRegOptEnd:hover {
+    color: #0078ff;
+}
+
+#ManageRegistration {
+    padding: 5px 15px;
+    font-family: Candara;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #3a6fb4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+}
+
+#ManageRegistration:hover {background-color: #4d80c1}
+
+#ManageRegistration:active {
+    background-color: #4d80c1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#reg_student_search {
+    font-family: Candara;
+    font-size: 17px;
+    margin-bottom: 13px;
+}
+#reg_student_search:focus {
+    border-color: #d9f4f7;
+    border-radius: 0px;
+}
+.selectBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#reg_stu {
+    background-color: #00b26d;
+    border-color: white;
+    height: 34px;
+}
+#reg_stu:hover, #reg_stu:focus {
+    background-color: #00a163;
+}
+#nonReg_stu {
+    background-color: #f2603e;
+    border-color: white;
+    height: 34px;
+}
+#nonReg_stu:hover, #nonReg_stu:focus {
+    background-color: #e94721;
+}
+#checkAll, #uncheckAll {
+    height: 34px;
+}
+#checkAll:focus, #checkAll:active, #checkAll:hover,
+#uncheckAll:focus, #uncheckAll:active, #uncheckAll:hover{
+    border : none;
+}
+.mngRegTbl{
+    font-family: Candara;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px #cccccc;
+    color: #000c58;
+}
+.mngRegTbl_th {
+    background-color: #3a6fb4;
+    color: white;
+    border:1px solid blue;
+
+}
+#regMailBtn {
+    padding: 5px 15px;
+    font-family: Candara;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #49bbd1;
+    border: none;
+    border-radius: 3px;
+}
+
+#regMailBtn:hover {background-color: #4d80c1}
+
+#regMailBtn:active {
+    background-color: #4d80c1;
+    transform: translateY(2px);
+}
+
+#regMailBtn:disabled {
+    background-color: #999;
+}
+
+#regMailModalBtn {
+    margin-left: 0px;
+    width: 70px;
+    padding: 5px 15px;
+    font-family: Candara;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #49bbd1;
+    border: none;
+    border-radius: 3px;
+}
+#regMailModalBtn:hover {background-color: #4d80c1}
+
+#regMailModal label {
+    font-family: Candara;
+    font-size: 15px;
+    color: #1a2842;
+}
+
+#regMailModal .modal-header {
+    border-bottom: 2px solid #49bbd1;
+}
+#regMailModal .modal-footer
+{
+    border-top: 2px solid #49bbd1;
+}
+#regMailModal .modal-header span {
+    font-family: Candara;
+    font-size: 19px;
+    color: #49bbd1;
+}
+#student_tbl a {
+    color: #005991;
+    text-shadow: 0.5px 0.5px #99999d;
+    text-decoration: none; /* no underline */
+}
+#stuRegModal .stuRegTbl {
+    font-family: Candara;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    box-shadow: 2px 2px 2px #dddddd;
+}
+#stuRegModal .stuRegTbl thead {
+    background-color: #3bb5ce;
+    font-size: 17px;
+    text-shadow: 0.5px 0.5px #99999d;
+    color: white;
+}
+.stuRegTbl > thead > tr > th {
+    border-bottom:3px solid #076ebd;
+}
+#stuRegModal .stuRegTbl tbody {
+    text-align: left;
+}
+#stuRegModal .stuRegTbl tbody .stuRegCourse:hover{
+    background-color: #147fd0;
+}
+#stuRegModal .stuRegTbl .stuRegCourse {
+    color: white;
+    background-color: #076ebd;
+}
+#stuRegModal .stuRegTbl .stuRegCourse i {
+    padding-left: 20px;
+}
+#stuRegModal .modal-header span{
+    font-family: 'Cuprum';
+    font-size: 19px;
+    color:#07908c;
+}
+#stuRegModal .modal-footer #stuMngRegBtn button{
+    background-color: #1e7e34;
+    border: none;
+    transition: all 1s ease;
+}
+#stuRegModal .modal-footer #stuMngRegBtn button:hover{
+    background-color: #1cafab;
+    text-shadow: 2px 2px 2px #014d4b;
+    border-radius: 0px;
+    border: none;
+}
+/* --------------------------------Student Registration View---------------------------*/
+.regFormTitle{
+    padding-top: 20px;
+    font-family: 'Comfortaa';
+    text-shadow: 1px 1px 2px #7e8798;
+    font-size: 23px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+    color: #616161;
+}
+.headerReg{
+    text-align: left;
+    font-family: Candara;
+    border-bottom: 1px solid #b8b8b8;
+    margin-top: 0px;
+}
+.headerReg span{
+    color: #007bff;
+}
+.regFormHint{
+    font-family: Candara;
+    border-radius: 0px;
+}
+.regFormError{
+    font-family: Candara;
+    border-radius: 0px;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.courseRegBtn{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Saira SemiCondensed';
+    text-shadow: 1px 1px 2px #0f327f;
+    font-size: 20px;
+    background-color: #0f327f;
+}
+.courseRegBtn:focus{
+    border: none;
+    box-shadow:none;
+    outline: 0;
+}
+.stuRegFormTbl{
+    border-color: #4e555b;
+}
+.stuRegFormTbl > thead > tr > th{
+    border-bottom: 1px solid #42b9d0;
+    color: #274882;
+    font-size: 16px;
+}
+.stuRegFormTbl .tblType{
+    border-bottom: 2px solid #274882;
+    background-color: #616161;
+    border: none;
+    color: white;
+}
+.stuRegFormTbl > tbody > tr {
+    margin-top: 15px;
+    padding-top: 10px;
+    color: #555555;
+}
+.regFormSubmBtn,.regFormBackBtn {
+    width: 15%;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #2caec7;
+}
+.regFormSubmBtn{
+    background-color: #007047;
+}
+.regFormSubmBtn:hover{
+    background-color: #0b7f55;
+}
+.regFormBackBtn{
+    background-color: #007caf;
+}
